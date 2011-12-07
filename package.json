@@ -1,6 +1,6 @@
 { "name": "optimist.sh"
 , "version": "0.0.0"
-, "description": ""
+, "description": "optimist for bash"
 , "homepage": "http://github.com/dominictarr/optimist.sh"
 , "repository": 
   { "type": "git"
@@ -8,4 +8,5 @@
 , "dependencies": {}
 , "devDependencies": {}
 , "author": "Dominic Tarr <dominic.tarr@gmail.com> (http://bit.ly/dominictarr)"
+, "bin": { "optimist.sh": "./optimist.sh" }
 , "scripts": { "test": "meta-test test/*.js" } }
